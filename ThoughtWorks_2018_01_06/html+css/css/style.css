@@ -1,0 +1,82 @@
+body {
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.b {
+    font-weight:600;
+}
+
+.box {
+    border: 2px solid #F0F0F0;
+
+    margin: 20px 80px;
+}
+
+.box_in {
+    padding: 15px 15px 36px 15px;
+}
+
+.form_group {
+    width: 29%;
+    float: left;
+}
+
+.title4 {
+    background-color: #F0F0F0;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.content {
+    padding: 0 30px 10px 30px;
+    line-height: 28px;
+}
+
+.input_con {
+    padding-left:20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.radio, .checkbox{
+    padding-left: 15px;
+}
+
+textarea {
+    resize: vertical;
+    margin: 0 18px;
+    width: 96%;
+}
+
+.radio1 {
+    float: left;
+    height: 20px;
+    padding: 15px 0 15px 0;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.d_btn {
+    text-align: center;
+}
+
+.btn {
+    background-color: #337ab7;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
