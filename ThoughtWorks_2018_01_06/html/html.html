@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta charset="UTF-8">
 
     <title>纯HTML实现考试界面(统一建模语言理论测试)</title>
 </head>
@@ -18,116 +18,67 @@
 
     <div>
         <h4>一、填空题（每空5分，共20分）</h4>
-        <div>
-            <span style="padding-left:24px;">1. UML的中文全称是：</span>
-            <div style="padding-left:43px;">
-                <input type="text">
-            </div>
-        </div>
-        <div>
-            <span style="padding-left:24px;">2. 对象最突出的特征是：</span>
-            <div style="padding-left:43px;">
-                <input type="text"> <input type="text"> <input type="text">
-            </div>
-        </div>
+        <ol>
+            <li>UML的中文全称是：</li> <input type="text">
+            <li>对象最突出的特征是：</li> <input type="text"> <input type="text"> <input type="text">
+        </ol>
     </div>
     <!-- 第一大题 -->
     <div>
         <h4>二、选择题（每题5分，共20分）</h4>
-        <div>
-            <span style="padding-left:24px;">1. UML与软件工程的关系是：</span>
-            <div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="option2_1">(A)UML就是软件工程</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="option2_1">(B)UML参与到软件工程中软件开发过程中的几个阶段</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="option2_1">(C)UML与软件工程无关</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="option2_1">(D)UML是软件工程的一部分</label>
-                </div>
-            </div>
-        </div>
-        <div>
-            <span style="padding-left:24px;">2. Java语言支持：</span>
-            <div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="optinos2_2">(A)单继承</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="optinos2_2">(B)多继承</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="optinos2_2">(C)单继承和多继承都支持</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="radio" name="optinos2_2">(D)单继承和多继承都不支持</label>
-                </div>
-            </div>
-        </div>
+        <ol>
+            <li>UML与软件工程的关系是：</li>
+            <div><label><input type="radio" name="option2_1" id="211">(A)UML就是软件工程</label></div>
+            <div><label><input type="radio" name="option2_1">(B)UML参与到软件工程中软件开发过程中的几个阶段</label></div>
+            <div><label><input type="radio" name="option2_1">(C)UML与软件工程无关</label></div>
+            <div><label><input type="radio" name="option2_1">(D)UML是软件工程的一部分</label></div>
+
+            <li>Java语言支持：</li>
+            <div><label><input type="radio" name="optinos2_2">(A)单继承</label></div>
+            <div><label><input type="radio" name="optinos2_2">(B)多继承</label></div>
+            <div><label><input type="radio" name="optinos2_2">(C)单继承和多继承都支持</label></div>
+            <div><label><input type="radio" name="optinos2_2">(D)单继承和多继承都不支持</label></div>
+        </ol>
     </div>
     <!-- 第二大题 -->
     <div>
         <h4>三、多项选择题（每题10分，共20分）</h4>
-        <div>
-            <span style="padding-left:24px;">1. 用例的粒度分为以下哪三种：</span>
-            <div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(A)概述级</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(B)需求级</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(C)用户目标级</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(D)子功能级</label>
-                </div>
-            </div>
-        </div>
-        <div>
-            <span style="padding-left:24px;">2. 类图由以下哪三部分组成：</span>
-            <div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(A)名称(Name)</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(B)属性(Attribute)</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(C)操作(Operation)</label>
-                </div>
-                <div style="padding-left:43px;">
-                    <label><input type="checkbox">(D)方法(Function)</label>
-                </div>
-            </div>
-        </div>
+        <ol>
+            <li>用例的粒度分为以下哪三种：</li>
+            <div><label><input type="checkbox">(A)概述级</label></div>
+            <div><label><input type="checkbox">(B)需求级</label></div>
+            <div><label><input type="checkbox">(C)用户目标级</label></div>
+            <div><label><input type="checkbox">(D)子功能级</label></div>
+
+            <li>类图由以下哪三部分组成：</li>
+            <div><label><input type="checkbox">(A)名称(Name)</label></div>
+            <div><label><input type="checkbox">(B)属性(Attribute)</label></div>
+            <div><label><input type="checkbox">(C)操作(Operation)</label></div>
+            <div><label><input type="checkbox">(D)方法(Function)</label></div>
+        </ol>
     </div>
     <!-- 第三大题 -->
     <div>
         <h4>四、判断题（每题10分，共20分）</h4>
-        <div>
-            <span style="padding-left:24px;">1. 用例图只是用于和客户交流和沟通的，用于确定需求。</span>
-            <label><input type="radio" name="options4_1"></label>
-            <label><input type="radio" name="options4_1"></label>
-        </div>
-        <div>
-            <span style="padding-left:24px;">2. 在状态图中，终止状态在一个状态图中允许有任意多个。</span>
-            <label><input type="radio" name="options4_2"></label>
-            <label><input type="radio" name="options4_2"></label>
-        </div>
+        <ol>
+            <li>用例图只是用于和客户交流和沟通的，用于确定需求。
+                <label><input type="radio" name="options4_1"></label>
+                <label><input type="radio" name="options4_1"></label>
+            </li>
+            <li>在状态图中，终止状态在一个状态图中允许有任意多个。
+                <label><input type="radio" name="options4_2"></label>
+                <label><input type="radio" name="options4_2"></label>
+            </li>
+        </ol>
     </div>
     <!-- 第四大题 -->
     <div>
         <h4>五、简答题（每题10分，共20分）</h4>
-        <div>
-            <span style="padding-left:24px;">1. 简述什么是模型以及模型的表现形式？</span>
-            <textarea rows="3"></textarea>
-        </div>
+        <ol>
+            <li>简述什么是模型以及模型的表现形式？
+                <textarea rows="5" cols="25"></textarea>
+            </li>
+        </ol>
     </div>
     <!-- 第五大题 -->
 
