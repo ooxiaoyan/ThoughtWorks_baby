@@ -1,18 +1,13 @@
-body {
-    
-}
-
-h1 {
+h1, .d_btn {
     text-align: center;
 }
 
-.b {
+.bold, li {
     font-weight:600;
 }
 
 .box {
     border: 2px solid #F0F0F0;
-
     margin: 20px 80px;
 }
 
@@ -22,34 +17,26 @@ h1 {
 
 .form_group {
     width: 29%;
-    float: left;
 }
 
 .title4 {
     background-color: #F0F0F0;
     padding: 15px;
     font-size: 18px;
+    margin-top: 0;
 }
 
 .content {
-    padding: 0 30px 10px 30px;
-    line-height: 28px;
+    line-height: 30px;
+    padding: 10px 0;
 }
 
 .input_con {
     padding-left:20px;
 }
 
-p {
-    font-weight: bold;
-}
-
-.left {
+.left, .form_group {
     float: left;
-}
-
-.radio, .checkbox{
-    padding-left: 15px;
 }
 
 textarea {
@@ -58,18 +45,8 @@ textarea {
     width: 96%;
 }
 
-.radio1 {
-    float: left;
-    height: 20px;
-    padding: 15px 0 15px 0;
-}
-
 .height50 {
     height: 50px;
-}
-
-.d_btn {
-    text-align: center;
 }
 
 .btn {
